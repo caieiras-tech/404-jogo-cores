@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: limegreen;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+nav{
+    text-align: center;
+}
+h1{
+    color: red;
+    font-size: 36pt;
+    font-family: 'Hanalei', cursive;
+}
+h2{
+    color: magenta;
+    margin-top: 20px;
+    font-size: 30pt;
+    font-family: 'Hanalei', cursive;
+}
+section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    border: 5px dotted black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+div:hover{
+    transform: scale(1.06);
+}
+
+.virarQuadradinho{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 16pt;
+    background-color: rgb(161, 2, 161);
+    color: chartreuse;
+    margin-bottom: 30px;
+    font-family: 'Hanalei', cursive;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: magenta   ;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 40px;
+}
